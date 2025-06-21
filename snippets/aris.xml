@@ -10,4 +10,7 @@
   <remote  name="aris-gitlab"
            fetch="https://gitlab.com/Aris-Go"
            revision="refs/heads/BlackSuit" />
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="aris" />
 </manifest>
