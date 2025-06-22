@@ -13,4 +13,7 @@
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="aris" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" groups="pdk" remote="aris" />
 </manifest>
