@@ -14,6 +14,12 @@
   <!-- Bootable -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="aris" />
 
+  <!-- Build -->
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="aris" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <!-- System -->
   <project path="system/core" name="android_system_core" groups="pdk" remote="aris" />
 </manifest>
